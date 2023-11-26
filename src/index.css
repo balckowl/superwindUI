@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+}
+
+h1{
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  margin:0;
+  padding: 0;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
+}
+
+.container{
+  padding-inline: 15px;
+}
+
+@media(min-width: 1000px){
+  .container{
+      width: 1000px;
+      margin-inline: auto;
+  }
+}

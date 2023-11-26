@@ -2,20 +2,27 @@
 import { css } from "@emotion/react";
 
 interface buttonProps {
-    txt: string;
+    txt?: string;
+    link: string;
+    bgColor?: string;
+    color?: string;
 }
 
-const Button = ({ txt }: buttonProps) => {
+const Button = ({ txt = 'ボタン', link, bgColor = '#6495ED', color = 'white' }: buttonProps) => {
 
     const buttonStyle = css`
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: navy;
-        color: white; 
-        border-radius: 10px;
+        a{
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: ${bgColor};
+            border-radius: 20px;
+            color: ${color}; 
+        }
     `
     return (
-        <div css={buttonStyle}>{txt}</div>
+        <div css={buttonStyle}>
+            <a href={link}>{txt}</a>
+        </div>
     )
 }
 
