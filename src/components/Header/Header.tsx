@@ -12,24 +12,16 @@ interface brandNameType {
     link: string;
 }
 
-interface userType {
-    user?: any;
-    guestIcon?: string;
-    userIcon?: string;
-    login: any;
-    logout: any;
-}
-
 interface headerProps {
     brandName: brandNameType;
     bgColor?: string;
-    color: string;
+    color?: string;
     menuList: menuListType[];
     height?: string;
-    user?: userType;
+    hamImage?: string;
 }
 
-const Header = ({ brandName, bgColor='white', menuList, color, height='80', user }: headerProps) => {
+const Header = ({ brandName, bgColor='#fff', menuList, color="#000", height='80', hamImage="/ham.svg"}: headerProps) => {
 
     const [isActive, setIsActive] = useState<boolean>(false)
 
@@ -54,17 +46,6 @@ const Header = ({ brandName, bgColor='white', menuList, color, height='80', user
             li a{
                 color: ${color}
             }
-
-            .user-icon-box{
-                width: 50px;
-                height: 50px;
-            }
-
-            .login-btn, .logout-btn{
-                background-color: white;
-                padding: 5px 15px;
-                border-radius: 10px;
-            }
         }, 
 
         .menu{
@@ -76,6 +57,8 @@ const Header = ({ brandName, bgColor='white', menuList, color, height='80', user
 
         .ham{
             display: none;
+            width: 20px;
+            height: 20px;
         }
           
         .menu.isactive{
@@ -113,28 +96,10 @@ const Header = ({ brandName, bgColor='white', menuList, color, height='80', user
                             {menuList.map((menuItem, index) => (
                                 <li key={index}><a href={menuItem.link}>{menuItem.name}</a></li>
                             ))}
-                            {user?.user ? (
-                                <li onClick={user?.logout} className='logout-btn'>
-                                    logout
-                                </li>
-                            ) : (
-                                <li onClick={user?.login} className='login-btn'>
-                                    login
-                                </li>
-                            )}
-                            {user?.user ? (
-                                <li className='user-icon-box'>
-                                    <img src={user?.userIcon} alt="" />
-                                </li>
-                            ) : (
-                                <li className='user-icon-box'>
-                                    <img src={user?.guestIcon} alt="" />
-                                </li>
-                            )}
                         </ul>
                     ) : (<></>)}
                     <div className='ham' onClick={() => setIsActive(!isActive)}>
-                        <img src="/ham.svg" alt="" />
+                        <img src={hamImage} alt="" />
                     </div>
                 </nav>
             </div>
