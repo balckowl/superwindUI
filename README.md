@@ -2,6 +2,13 @@
 ![version](https://img.shields.io/npm/v/superwindui.svg)
 
 # Superwind UI
+SuperwindUIは、サポーターズ主催のマンスリーハッカソンvol.12(2023年12月)に作成したライブラリです。
+
+- **ライブラリ開発**: [@y_ta](https://github.com/balckowl)、[@GO0128](https://github.com/Go-Morishita)、[@Daichi](https://github.com/daichi0812)
+- **ドキュメント開発**: [@y_ta](https://github.com/balckowl)
+- **プロジェクトリーダー**: [@y_ta](https://github.com/balckowl)
+
+チームでも納得の作品が作れたのでとても良かったです。
 
 ## 作品概要 📦
 
