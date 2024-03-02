@@ -21,7 +21,7 @@ SuperwindUIは、スタイルを固定化することにより、モダンなUI�
 
 [スライドはこちら](https://www.canva.com/design/DAF1Jck09Ys/tEnc28mVacbOqI4Fk3FLeg/view?utm_content=DAF1Jck09Ys&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
-## ドキュメント画像 🖼️
+## 作品画像 🖼️
 
 <img width="1440" alt="2024-03-03_7 36 13" src="https://github.com/balckowl/superwindui/assets/129815120/d48df794-4c4e-4213-b4c0-bf980b188551">
 
