@@ -12,16 +12,16 @@ SuperwindUIは、サポーターズ主催のマンスリーハッカソンvol.12
 
 ## 作品概要 📦
 
-スタイルを固定化することにより、モダンな様々UIを超速で開発できるReactのコンポーネントライブラリとなっています。
+SuperwindUIは、スタイルを固定化することにより、モダンなUIを超速で開発できるReact, Next.jsのUIコンポーネントライブラリです。また、従来のUIコンポーネントライブラリとは比べ、コンポーネントの単位が大きく、ドキュメントをそこまで読まなくても、フロントエンド初学者でも簡単に使うことができます。
 
-## 作品リンク 🔗
+## ドキュメントリンク 🔗
 [作品はこちら](https://superwindui.netlify.app/)
 
 ## スライドリンク 🔗
 
 [スライドはこちら](https://www.canva.com/design/DAF1Jck09Ys/tEnc28mVacbOqI4Fk3FLeg/view?utm_content=DAF1Jck09Ys&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
-## デモ画像 🖼️
+## ドキュメント画像 🖼️
 
 <img width="1440" alt="2024-03-03_7 36 13" src="https://github.com/balckowl/superwindui/assets/129815120/d48df794-4c4e-4213-b4c0-bf980b188551">
 
