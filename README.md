@@ -3,42 +3,39 @@
 
 # Superwind UI
 
+## 作品概要 📦
+
 スタイルを固定化することにより、モダンな様々UIを超速で開発できるReactのコンポーネントライブラリとなっています。
 
-## Priority
+## 作品リンク 🔗
+[作品はこちら](https://superwindui.netlify.app/)
 
-* シンプル
+## スライドリンク 🔗
 
-複数のクラスやコンポーネントの記述も必要なく、少しパラメータを設定するだけで、UIを開発できます。
+[スライドはこちら](https://www.canva.com/design/DAF1Jck09Ys/tEnc28mVacbOqI4Fk3FLeg/view?utm_content=DAF1Jck09Ys&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
-* 見やすさ
+## デモ画像 🖼️
 
-日本人が開発しているため、日本人ライクなデザイン、見やすいドキュメントを実現しています。
+<img width="1440" alt="2024-03-03_7 36 13" src="https://github.com/balckowl/superwindui/assets/129815120/d48df794-4c4e-4213-b4c0-bf980b188551">
 
-* 研究
+## 技術スタック 🚀
 
-UIに時間をかけず、他のライブラリやサービス、言語の勉強をすることができるようになっております。
+### Superwind UI
 
-## Posteriority
+React, Vite, TS, Emotion, Framer-Motion
 
-* 固定化
+### Superwind UI Docs
 
-スタイルが固定化されており、従来のコンポーネントライブラリより、自由度が劣っていることが最大の欠点です。
+- **フロントエンド**: Next.js, TS, Bootstrap, Framer-Motion, SuperwindUI
+- **バックエンド**: MicroCMS
+- **インフラ**: Netlify
 
-## Created By 
+## 今後の展望 🔭
 
-激辛りんご車
-
-## technology stack
-
-* React
-* TypeScript
-* Vite
-* emotion
-* storybook
-
-
-
+- UIコンポーネントの追加
+- yarnやpnmpといったサードパーティへの対応
+- Svelteや　Solid.jsといったエコシステムのまだそこまで整っていたいフレームワークへの対応
+- 今後の開発の際にSuperwindUIの利用
 
 
 
