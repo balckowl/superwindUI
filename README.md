@@ -41,7 +41,7 @@ React, Vite, TS, Emotion, Framer-Motion
 
 - UIコンポーネントの追加
 - yarnやpnmpといったサードパーティへの対応
-- Svelteや　Solid.jsといったエコシステムのまだそこまで整っていたいフレームワークへの対応
+- SvelteやSolid.jsといったエコシステムのまだそこまで整っていたいフレームワークへの対応
 - 今後の開発の際にSuperwindUIの利用
 
 
